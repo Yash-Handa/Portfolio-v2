@@ -47,6 +47,10 @@ const StyledHeroSection = styled.section`
   #bold-text {
     ${({ theme }) => theme.mixins.strong}
   }
+
+  #hi {
+    margin-right: 0.8em;
+  }
 `;
 
 const Hero = () => {
@@ -79,7 +83,7 @@ const Hero = () => {
   );
   const five = (
     <a className="email-link" href={`mailto:${email}`}>
-      <span role="img" aria-label="Hi">
+      <span role="img" aria-label="Hi" id="hi">
         👋
       </span>
       Get In Touch
