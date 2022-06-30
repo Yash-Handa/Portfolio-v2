@@ -16,6 +16,8 @@ import {
   IconStar,
   IconTwitter,
 } from '@components/icons';
+import IconStackOverflow from './stackoverflow';
+import IconCall from './call';
 
 const Icon = ({ name }) => {
   switch (name) {
@@ -47,6 +49,10 @@ const Icon = ({ name }) => {
       return <IconStar />;
     case 'Twitter':
       return <IconTwitter />;
+    case 'StackOverflow':
+      return <IconStackOverflow />;
+    case 'Call':
+      return <IconCall />;
     default:
       return <IconExternal />;
   }

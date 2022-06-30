@@ -3,7 +3,7 @@ import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import styled from 'styled-components';
 import { navDelay, loaderDelay } from '@utils';
 import { usePrefersReducedMotion } from '@hooks';
-// import { email } from '@config';
+import { email } from '@config';
 
 const StyledHeroSection = styled.section`
   ${({ theme }) => theme.mixins.flexCenter};
@@ -59,14 +59,13 @@ const Hero = () => {
   }, []);
 
   const one = <h1>Hi, my name is</h1>;
-  const two = <h2 className="big-heading">Brittany Chiang.</h2>;
-  const three = <h3 className="big-heading">I build things for the web.</h3>;
+  const two = <h2 className="big-heading">Yash Handa.</h2>;
+  const three = <h3 className="big-heading">Software Engineer.</h3>;
   const four = (
     <>
       <p>
-        I’m a software engineer specializing in building (and occasionally designing) exceptional
-        digital experiences. Currently, I’m focused on building accessible, human-centered products
-        at{' '}
+        I’m a software engineer specializing in building and designing exceptionally robust
+        computing systems. Currently, I’m focused on building accessible, human-centered products at{' '}
         <a href="https://upstatement.com/" target="_blank" rel="noreferrer">
           Upstatement
         </a>
@@ -75,12 +74,11 @@ const Hero = () => {
     </>
   );
   const five = (
-    <a
-      className="email-link"
-      href="https://www.newline.co/courses/build-a-spotify-connected-app"
-      target="_blank"
-      rel="noreferrer">
-      Check out my course!
+    <a className="email-link" href={`mailto:${email}`}>
+      <span role="img" aria-label="Hi">
+        👋
+      </span>
+      Get In Touch
     </a>
   );
 
