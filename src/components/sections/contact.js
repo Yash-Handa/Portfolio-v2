@@ -5,7 +5,7 @@ import sr from '@utils/sr';
 import { usePrefersReducedMotion } from '@hooks';
 
 const StyledContactSection = styled.section`
-  max-width: 600px;
+  max-width: 640px;
   margin: 0 auto 100px;
   text-align: center;
 
@@ -39,6 +39,10 @@ const StyledContactSection = styled.section`
     ${({ theme }) => theme.mixins.bigButton};
     margin-top: 50px;
   }
+
+  #bold-text {
+    ${({ theme }) => theme.mixins.strong}
+  }
 `;
 
 const Contact = () => {
@@ -60,8 +64,10 @@ const Contact = () => {
       <h2 className="title">Get In Touch</h2>
 
       <p>
-        Although I’m not currently looking for any new opportunities, my inbox is always open.
-        Whether you have a question or just want to say hi, I’ll try my best to get back to you!
+        Currently, I’m looking for <strong id="bold-text">New Opportunities</strong> in Full-Stack
+        Development roles (incl., Distributed, Microservice and Cloud-based systems). Whether you
+        have a question or want to say hi! my inbox is always open, I’ll try my best to get back to
+        you!
       </p>
 
       <a className="email-link" href={`mailto:${email}`}>
