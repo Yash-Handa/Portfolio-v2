@@ -166,6 +166,15 @@ const mixins = {
     padding: 0;
     margin: 0;
   `,
+
+  strong: css`
+    display: inline-block;
+    font-weight: 500;
+    text-decoration: none;
+    text-decoration-skip-ink: auto;
+    position: relative;
+    color: var(--green);
+  `,
 };
 
 export default mixins;

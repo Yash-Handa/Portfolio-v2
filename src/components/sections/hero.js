@@ -43,6 +43,10 @@ const StyledHeroSection = styled.section`
     ${({ theme }) => theme.mixins.bigButton};
     margin-top: 50px;
   }
+
+  #bold-text {
+    ${({ theme }) => theme.mixins.strong}
+  }
 `;
 
 const Hero = () => {
@@ -65,11 +69,11 @@ const Hero = () => {
     <>
       <p>
         I’m a software engineer specializing in building and designing exceptionally robust
-        computing systems. Currently, I’m focused on building accessible, human-centered products at{' '}
-        <a href="https://upstatement.com/" target="_blank" rel="noreferrer">
-          Upstatement
-        </a>
-        .
+        computing systems. Currently, I’m looking for{' '}
+        <strong id="bold-text">New Opportunities</strong> in Full-Stack Development roles.
+        {/* <a href="_" target="_blank" rel="noreferrer">
+          Company Name
+        </a> */}
       </p>
     </>
   );
