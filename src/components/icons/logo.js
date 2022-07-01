@@ -5,7 +5,7 @@ const IconLogo = () => (
     id="logo"
     xmlns="http://www.w3.org/2000/svg"
     role="img"
-    viewBox="204.614 205.821 90.872 88.358">
+    viewBox="203.614 205.821 92.372 88.358">
     <title>Logo</title>
     <g>
       <path

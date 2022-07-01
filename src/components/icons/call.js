@@ -7,7 +7,7 @@ const IconCall = () => (
     viewBox="0 0 473.806 473.806"
     fill="none"
     stroke="currentColor"
-    strokeWidth="2"
+    strokeWidth="3"
     strokeLinecap="round"
     strokeLinejoin="round">
     <title>Call</title>
