@@ -1,5 +1,5 @@
 ---
-date: '93'
+date: '98'
 title: 'Socio Konnect'
 github: 'https://github.com/Yash-Handa/Socio-Konnect'
 external: 'https://socio-konnect.herokuapp.com/'
