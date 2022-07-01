@@ -45,6 +45,10 @@ const StyledText = styled.div`
       }
     }
   }
+
+  #bold-text {
+    ${({ theme }) => theme.mixins.strong}
+  }
 `;
 const StyledPic = styled.div`
   position: relative;
@@ -125,7 +129,16 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'TypeScript', 'React', 'Eleventy', 'Node.js', 'WordPress'];
+  const skills = [
+    'JavaScript (ES6+)',
+    'Golang',
+    'C++',
+    'React + Redux',
+    'Node.js',
+    'GraphQL',
+    'PostgreSQL',
+    'AWS',
+  ];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -135,30 +148,46 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Brittany and I enjoy creating things that live on the internet. My
-              interest in web development started back in 2012 when I decided to try editing custom
-              Tumblr themes — turns out hacking together a custom reblog button taught me a lot
-              about HTML &amp; CSS!
+              Hi, my name is Yash, and I enjoy creating projects that can be fun or solves a
+              problem. My interest in computer science started in 2016 when I took it as a subject
+              in my senior high. I adore that a simple API can reach millions of people, hiding all
+              the system complexities and giving real added value.
             </p>
 
             <p>
-              Fast-forward to today, and I’ve had the privilege of working at{' '}
-              <a href="https://us.mullenlowe.com/">an advertising agency</a>,{' '}
-              <a href="https://starry.com/">a start-up</a>,{' '}
-              <a href="https://www.apple.com/">a huge corporation</a>, and{' '}
-              <a href="https://scout.camd.northeastern.edu/">a student-led design studio</a>. My
-              main focus these days is building accessible, inclusive products and digital
-              experiences at <a href="https://upstatement.com/">Upstatement</a> for a variety of
-              clients.
-            </p>
-
-            <p>
-              I also recently{' '}
-              <a href="https://www.newline.co/courses/build-a-spotify-connected-app">
-                launched a course
+              Fast-forward to today, and I’ve had the privilege of graduating from{' '}
+              <a href="https://www.msit.in/" title="Maharaja Surajmal Institute of Technology">
+                MSIT
+              </a>
+              , contributing to projects like{' '}
+              <a href="https://nodejs.org/en/" title="Node.js Foundation">
+                Node.js
               </a>{' '}
-              that covers everything you need to build a web app with the Spotify API using Node
-              &amp; React.
+              and{' '}
+              <a
+                href="https://whatwg.org/"
+                title="Web Hypertext Application Technology Working Group">
+                WHATWG
+              </a>
+              , and working for a{' '}
+              <a href="https://wednesday.is/" title="Wednesday Solution">
+                start-up
+              </a>
+              . Currently, I’m looking for <strong id="bold-text">New Opportunities</strong> in
+              Full-Stack Development roles (incl., Distributed, Microservice and Cloud-based
+              systems).
+            </p>
+
+            <p>
+              Apart from that, I also love researching various{' '}
+              <a href="https://www.investopedia.com/terms/f/financialinstrument.asp">
+                financial instruments
+              </a>{' '}
+              and{' '}
+              <a href="https://www.investopedia.com/articles/active-trading/101014/basics-algorithmic-trading-concepts-and-examples.asp">
+                Algo Trading
+              </a>{' '}
+              strategies for the forex and crypto markets.
             </p>
 
             <p>Here are a few technologies I’ve been working with recently:</p>
