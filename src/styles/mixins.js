@@ -173,7 +173,25 @@ const mixins = {
     text-decoration: none;
     text-decoration-skip-ink: auto;
     position: relative;
-    color: var(--green);
+    color: var(--navy);
+    &:before {
+      content: ' ';
+      display: block;
+      height: 90%;
+      width: fill-available;
+      margin-left: -2px;
+      margin-right: -3px;
+      position: absolute;
+      background: var(--green);
+      transform: rotate(2deg);
+      top: -1px;
+      left: -1px;
+      border-radius: 20% 25% 20% 24%;
+      padding: 10px 3px 3px 10px;
+    }
+    span {
+      position: relative;
+    }
   `,
 };
 

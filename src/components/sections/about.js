@@ -173,8 +173,11 @@ const About = () => {
               <a href="https://wednesday.is/" title="Wednesday Solution">
                 start-up
               </a>
-              . Currently, I’m looking for <strong id="bold-text">New Opportunities</strong> in
-              Full-Stack Development roles (incl., Distributed, Microservice and Cloud-based
+              . Currently, I’m looking for{' '}
+              <strong id="bold-text">
+                <span>New Opportunities</span>
+              </strong>{' '}
+              in Full-Stack Development roles (incl., Distributed, Microservice and Cloud-based
               systems).
             </p>
 

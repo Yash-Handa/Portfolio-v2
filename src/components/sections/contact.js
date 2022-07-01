@@ -64,10 +64,13 @@ const Contact = () => {
       <h2 className="title">Get In Touch</h2>
 
       <p>
-        Currently, I’m looking for <strong id="bold-text">New Opportunities</strong> in Full-Stack
-        Development roles (incl., Distributed, Microservice and Cloud-based systems). Whether you
-        have a question or want to say hi! my inbox is always open, I’ll try my best to get back to
-        you!
+        Currently, I’m looking for{' '}
+        <strong id="bold-text">
+          <span>New Opportunities</span>
+        </strong>{' '}
+        in Full-Stack Development roles (incl., Distributed, Microservice and Cloud-based systems).
+        Whether you have a question or want to say hi! my inbox is always open, I’ll try my best to
+        get back to you!
       </p>
 
       <a className="email-link" href={`mailto:${email}`}>

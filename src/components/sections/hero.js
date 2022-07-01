@@ -74,7 +74,10 @@ const Hero = () => {
       <p>
         I’m a software engineer specializing in building and designing exceptionally robust
         computing systems. Currently, I’m looking for{' '}
-        <strong id="bold-text">New Opportunities</strong> in Full-Stack Development roles.
+        <strong id="bold-text">
+          <span>New Opportunities</span>
+        </strong>{' '}
+        in Full-Stack Development roles.
         {/* <a href="_" target="_blank" rel="noreferrer">
           Company Name
         </a> */}
