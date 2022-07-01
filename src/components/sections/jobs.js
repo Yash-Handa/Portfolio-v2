@@ -162,6 +162,10 @@ const StyledTabPanel = styled.div`
     font-family: var(--font-mono);
     font-size: var(--fz-xs);
   }
+
+  a {
+    ${({ theme }) => theme.mixins.inlineLink};
+  }
 `;
 
 const Jobs = () => {
