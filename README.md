@@ -51,6 +51,7 @@
 
 - Add Blog.
 - Add Dark/ Light Switcher
+- Do SEO
 - Add keyboard shortcuts for navigation
 
 ## References
