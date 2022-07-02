@@ -5,7 +5,7 @@ module.exports = {
     title: 'Yash Handa Portfolio',
     description:
       'Yash Handa is a software engineer who specializes in building and designing exceptionally robust computing systems.',
-    siteUrl: 'https://yashhanda.netlify.app/', // No trailing slash allowed!
+    siteUrl: 'https://yashhanda.netlify.app', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '@yashHanda98',
   },
