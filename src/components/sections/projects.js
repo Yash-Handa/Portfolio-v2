@@ -120,17 +120,6 @@ const StyledProject = styled.li`
 
     a {
       position: static;
-
-      &:before {
-        content: '';
-        display: block;
-        position: absolute;
-        z-index: 0;
-        width: 100%;
-        height: 100%;
-        top: 0;
-        left: 0;
-      }
     }
   }
 
@@ -241,7 +230,7 @@ const Projects = () => {
           </div>
 
           <h3 className="project-title">
-            <a href={external} target="_blank" rel="noreferrer">
+            <a href={external || github} target="_blank" rel="noreferrer">
               {title}
             </a>
           </h3>
