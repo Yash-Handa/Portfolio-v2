@@ -2,10 +2,12 @@
   <img alt="Logo" src="https://raw.githubusercontent.com/Yash-Handa/Portfolio-v2/main/src/images/logo.png" width="100" />
 </div>
 <h1 align="center">
-  Website URL
+  [yashhanda.netlify.app](https://yashhanda.netlify.app/)
 </h1>
 
 ![demo](https://raw.githubusercontent.com/Yash-Handa/Portfolio-v2/main/src/images/demo.png)
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/68ea90a8-d165-4651-9e69-173e89efea90/deploy-status)](https://app.netlify.com/sites/yashhanda/deploys)
 
 ## 🛠 Installation & Set Up
 
