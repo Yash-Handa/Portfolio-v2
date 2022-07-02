@@ -2,7 +2,7 @@
   <img alt="Logo" src="https://raw.githubusercontent.com/Yash-Handa/Portfolio-v2/main/src/images/logo.png" width="100" />
 </div>
 <h1 align="center">
-  [yashhanda.netlify.app](https://yashhanda.netlify.app/)
+  <a href="https://yashhanda.netlify.app/" title="Yash Handa Portfolio">yashhanda.netlify.app</a>
 </h1>
 
 ![demo](https://raw.githubusercontent.com/Yash-Handa/Portfolio-v2/main/src/images/demo.png)
