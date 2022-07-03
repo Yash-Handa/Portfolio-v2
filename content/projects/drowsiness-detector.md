@@ -12,4 +12,4 @@ company: ''
 showInProjects: true
 ---
 
-Created as a collage group project, this is a web app for detecting drowsiness while a driver is driving. It uses Machine Learning and OpenCV.
+Created as a college group project, this is a web app for detecting drowsiness while a driver is driving. It uses Machine Learning and OpenCV.
